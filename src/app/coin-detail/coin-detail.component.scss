@@ -1,0 +1,38 @@
+.image{
+    margin: 10px auto;
+    display: flex;
+}
+.more-details{
+    padding: 10px;
+    margin:10px;
+    line-height: 50px;
+    .title{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .value{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+
+.btn-custom{
+    color:black;
+    background:transparent;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid yellow;
+    width: 23%;
+}
+.btn-custom:focus{
+    background: #009698;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #009698;
+}
+
+
+*{
+    color:#000000;
+}
