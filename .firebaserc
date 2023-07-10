@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "cryptocurrency-price-tra-cd63b"
+  },
+  "targets": {
+    "cryptocurrency-price-tra-cd63b": {
+      "hosting": {
+        "crypto-checker": [
+          "cryptocurrency-price-tra-cd63b"
+        ]
+      }
+    }
+  }
+}

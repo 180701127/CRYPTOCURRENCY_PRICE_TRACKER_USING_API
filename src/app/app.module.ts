@@ -16,6 +16,11 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { NgChartsModule } from 'ng2-charts';
+//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+//import { provideAuth,getAuth } from '@angular/fire/auth';
+//import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat'
 
 
 
@@ -41,7 +46,11 @@ import { NgChartsModule } from 'ng2-charts';
     MatSortModule,
     FormsModule,
     ReactiveFormsModule,
-    NgChartsModule
+    NgChartsModule,
+    AngularFireModule.initializeApp(environment.firebase)
+    //provideFirebaseApp(() => initializeApp(environment.firebase)),
+   // provideAuth(() => getAuth()),
+   // provideFirestore(() => getFirestore())
     
   ],
   providers: [],
